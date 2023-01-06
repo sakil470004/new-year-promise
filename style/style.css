@@ -1,0 +1,87 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+/* banner */
+.header {
+    background-image: url(/images/banner/banner3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 216px 230px;
+}
+
+.banner {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+.banner-tittle {
+    max-width: 525px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #FFFFFF;
+}
+
+.banner-description {
+    max-width: 494px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.banner-button {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 20px 26px;
+    color: #005FAC;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+/* my-failures */
+.my-failures {
+    max-width: 1172px;
+    margin: 130px auto;
+    display: flex;
+    align-items: center;
+    gap: 87px;
+    text-align: left;
+}
+
+.section-tittle {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+
+}
+
+.section-description {
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    color: #444343;
+}
+.my-failures ul{
+    margin: 0;
+    padding: 0;
+}
+.my-failures ul li {
+    list-style: none;
+    
+    font-weight: 400;
+    color: #444343;
+}
+.my-failures ul li span{
+     color: #70D492;
+}
