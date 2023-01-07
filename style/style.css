@@ -209,6 +209,7 @@
     padding: 21px;
     /* border: none; */
     border-radius: 5px;
+    border: 1px solid white;
     display: block;
     background: #151414;
     color: #F3F3F3;
