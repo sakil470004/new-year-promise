@@ -115,6 +115,114 @@
 
 .plan-card h3 {
     margin: 16px 0px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #151414;
 }
 
-.plan-card p {}
+.plan-card p {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
+}
+
+/* positive mindset */
+.positive-mindset {
+    max-width: 1141px;
+    margin: 130px auto;
+
+}
+
+.positive-mindset div {
+    background-image: url(/images/gradient1.png), url(/images/watch.png);
+    background-repeat: no-repeat;
+    padding: 59px 64px;
+}
+
+.mindset-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.btn-mindset {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #005FAC;
+    padding: 20px 26px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* footer */
+.footer {
+    background: #151414;
+    color: #FFFFFF;
+}
+
+.footer-container {
+    max-width: 1141px;
+    margin: 130px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 0px;
+}
+
+.future {}
+
+.future p {
+    font-weight: 400;
+    line-height: 26px;
+    margin: 12px 0px;
+    max-width: 485px;
+}
+
+.future>a {
+    margin-right: 10px;
+}
+
+.future-tittle {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+}
+
+.subscribe {}
+
+.subscribe h3 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    margin-bottom: 31px;
+}
+
+.subscribe input[type=email] {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 21px;
+    /* border: none; */
+    border-radius: 5px;
+    display: block;
+    background: #151414;
+    color: #F3F3F3;
+}
+
+.subscribe input[type=submit] {
+
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #F8F8F8;
+    padding: 20px 26px;
+    border: none;
+    background: #005FAC;
+    border-radius: 8px;
+    margin-top: 16px;
+}
