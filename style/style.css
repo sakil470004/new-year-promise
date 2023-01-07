@@ -72,16 +72,49 @@
     margin-bottom: 16px;
     color: #444343;
 }
-.my-failures ul{
+
+.my-failures ul {
     margin: 0;
     padding: 0;
 }
+
 .my-failures ul li {
     list-style: none;
-    
+
     font-weight: 400;
     color: #444343;
 }
-.my-failures ul li span{
-     color: #70D492;
+
+.my-failures ul li span {
+    color: #70D492;
 }
+
+/* my plan */
+.my-plan {
+    max-width: 1141px;
+    margin: 130px auto;
+
+}
+
+.my-plan .section-tittle {
+    text-align: center;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.plan-card {
+    text-align: center;
+}
+
+.plan-card img {}
+
+.plan-card h3 {
+    margin: 16px 0px;
+}
+
+.plan-card p {}
