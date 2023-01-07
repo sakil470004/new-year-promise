@@ -14,8 +14,8 @@
 .banner {
     display: flex;
     justify-content: flex-end;
+    text-align: right;
 }
-
 
 
 
@@ -28,7 +28,7 @@
 }
 
 .banner-description {
-    max-width: 494px;
+    max-width: 525px;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
