@@ -136,7 +136,7 @@
 }
 
 .positive-mindset div {
-    background-image: url(/images/gradient1.png), url(/images/watch.png);
+    background-image: url(images/gradient1.png), url(images/watch.png);
     background-repeat: no-repeat;
     padding: 59px 64px;
 }
